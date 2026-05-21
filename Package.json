@@ -1,5 +1,5 @@
 {
-  "name": "eduresults",
+  "name": "abubakrschool",
   "version": "1.0.0",
   "description": "School Results System",
   "main": "main.js",
@@ -9,7 +9,7 @@
   },
   "build": {
     "appId": "com.abdullahi.eduresults",
-    "productName": "EduResults",
+    "productName": "abubakrschool",
     "directories": {
       "output": "dist"
     },
