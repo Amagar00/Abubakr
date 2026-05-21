@@ -1,7 +1,7 @@
 {
-  "name": "abubakr school",
+  "name": "eduresults",
   "version": "1.0.0",
-  "description": "EduResults - School Results Management System",
+  "description": "School Results System",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -9,7 +9,7 @@
   },
   "build": {
     "appId": "com.abdullahi.eduresults",
-    "productName": "abubakr school",
+    "productName": "EduResults",
     "directories": {
       "output": "dist"
     },
@@ -19,19 +19,11 @@
       "package.json"
     ],
     "win": {
-      "target": [
-        {
-          "target": "nsis",
-          "arch": ["x64"]
-        }
-      ],
-      "requestedExecutionLevel": "asInvoker"
+      "target": "nsis"
     },
     "nsis": {
       "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
       "shortcutName": "EduResults"
     }
   },
@@ -40,4 +32,3 @@
     "electron-builder": "^24.9.1"
   }
 }
-
