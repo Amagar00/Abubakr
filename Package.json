@@ -9,7 +9,7 @@
   },
   "build": {
     "appId": "com.abdullahi.eduresults",
-    "productName": "ABUBAKR SCHOOL",
+    "productName": "abubakr school",
     "directories": {
       "output": "dist"
     },
